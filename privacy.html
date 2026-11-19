@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Champions VGC Dex — Privacy Policy</title>
-<meta name="description" content="Privacy policy for Champions VGC Dex: the app collects no personal data.">
+<meta name="description" content="Privacy policy for Champions VGC Dex: no accounts, no ads, no tracking; anonymous usage statistics you can turn off.">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
 </head>
@@ -12,27 +12,33 @@
 <main>
 <header><img src="icon.png" alt=""><h1>Privacy Policy</h1></header>
 <nav><a href="./">Support</a><a href="privacy.html">Privacy Policy</a></nav>
-<p class="muted">Champions VGC Dex · Effective November 18, 2026</p>
+<p class="muted">Champions VGC Dex · Effective November 19, 2026</p>
 
-<div class="card"><strong>The short version: Champions VGC Dex does not collect, store, or share any personal data.</strong></div>
+<div class="card"><strong>The short version: Champions VGC Dex has no accounts, ads or tracking and never asks who you are. From version 1.1 it sends anonymous usage statistics — which screens and Pokémon you open, what you search for — so we can improve it. You can turn them off in the app (About → Privacy).</strong></div>
 
 <h2>What the app does not do</h2>
 <ul>
 <li>No accounts or sign-in.</li>
-<li>No analytics, crash reporting, advertising, or tracking of any kind.</li>
-<li>No collection of your name, email address, location, contacts, photos, device identifiers, or usage data.</li>
-<li>Nothing is sold to or shared with anyone.</li>
+<li>No crash reporting, advertising, or tracking of any kind: nothing is used to follow you across other apps or websites, and nothing is combined with data from anyone else.</li>
+<li>No collection of your name, email address, location, contacts, photos, or advertising identifier.</li>
+<li>Nothing is sold to or shared with anyone, other than the analytics service described below, which stores the anonymous statistics for us.</li>
 </ul>
 
 <h2>Information that stays on your device</h2>
-<p>The app remembers a few preferences so it opens the way you left it: which ladder data set you view (Master+ or All ranks), up to six opponents you pin, and calculator sets you save. These are stored only on your iPhone, are never sent anywhere, and are deleted when you delete the app.</p>
+<p>The app remembers a few preferences so it opens the way you left it: which ladder data set you view (Master+ or All ranks), up to six opponents you pin, calculator sets you save, and whether usage statistics are on. These are stored only on your iPhone and are deleted when you delete the app. Apart from the ladder data set, which the usage statistics below mention, they are never sent anywhere.</p>
 
 <h2>Network connections</h2>
-<p>All battle data is built into the app. The app connects to the internet only to download Pokémon images from GitHub (raw.githubusercontent.com), which are then cached on your device. As with any web request, GitHub receives your IP address to deliver the image; GitHub handles that under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. The app sends no identifiers or personal information with these requests. Links you choose to open (for example, to a team's source) open in Safari and are governed by those websites' policies.</p>
+<p>All battle data is built into the app. The app connects to the internet for three things: Pokémon images, the tournament results file, and the anonymous usage statistics described below. The images come from GitHub (raw.githubusercontent.com) and are then cached on your device. As with any web request, GitHub receives your IP address to deliver the image; GitHub handles that under the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. The app sends no identifiers or personal information with the image requests. Links you choose to open (for example, to a team's source) open in Safari and are governed by those websites' policies.</p>
 <p>From version 1.1, the app also downloads one file of tournament results from this site (jordanurbaezlu.github.io, hosted on GitHub Pages), so new events appear without an app update. It is a plain download: the app sends no identifiers or personal information with it, and GitHub receives your IP address to deliver the file, as it does for the images. The file is cached on your device.</p>
 
+<h2>Anonymous usage statistics (version 1.1 and later)</h2>
+<p>To learn which features players use and what they look for, the app sends short usage events: which screens and Pokémon you open, what you type into search (lower-cased and cut to 40 characters, sent once you stop typing), the matchups you run in the calculator, the filters and switches you use, and the tournaments you open. Each event also carries the app version, the iOS version, the date of the app's data set, the ladder bracket you view, and a random ID the app creates on your iPhone. The app makes that ID up by itself: it is not your name, your Apple account, the device's advertising identifier, or anything else that says who you are.</p>
+<p>The events go to <a href="https://posthog.com/privacy">PostHog</a> (PostHog Inc., servers in the United States), the analytics service that stores and counts them for us. We do not ask PostHog to create a profile of you, the app turns off PostHog's location lookup, and the project is set to discard IP addresses. We use the statistics only to improve the app; they are not sold, not used for advertising, and not linked to who you are.</p>
+<p><strong>To turn them off:</strong> in the app, open About → Privacy and switch off "Share anonymous usage data". The app then stops sending events at once and deletes the events not yet sent and its random ID from your iPhone; if you switch it back on later, the app starts with a new random ID. Debug and test builds of the app never send them.</p>
+<p>Because the statistics are anonymous, we cannot look up or delete the events of one person. They are kept no longer than PostHog's standard retention for the project.</p>
+
 <h2>Children</h2>
-<p>The app collects no personal information from anyone, including children under 13.</p>
+<p>The app does not knowingly collect personal information from anyone, including children under 13. The anonymous usage statistics described above contain no name or contact details and are used only to improve the app.</p>
 
 <h2>Changes to this policy</h2>
 <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
